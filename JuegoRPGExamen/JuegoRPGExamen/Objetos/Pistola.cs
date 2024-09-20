@@ -8,5 +8,7 @@ namespace JuegoRPGExamen.Objetos
 {
     internal class Pistola
     {
+        public string Nombre { get; } = "Desert Eagle";
+        public int Dano { get; } = 17;
     }
 }

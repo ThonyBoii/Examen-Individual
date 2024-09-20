@@ -8,5 +8,7 @@ namespace JuegoRPGExamen.Objetos
 {
     internal class Arma
     {
+        string Nombre { get; }
+        int Dano { get; }
     }
 }
