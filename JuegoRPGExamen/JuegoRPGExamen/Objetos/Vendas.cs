@@ -8,5 +8,6 @@ namespace JuegoRPGExamen.Objetos
 {
     internal class Vendas
     {
+        public string Nombre { get; } = "Vendas";
     }
 }

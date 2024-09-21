@@ -21,5 +21,11 @@ namespace JuegoRPGExamen.Personajes
             Items = new List<Item>();
         }
 
+        public void UsaItem(Item item)
+        {
+            item.Usa(this);
+            Items.Remove(item);
+        }
+
     }
 }
