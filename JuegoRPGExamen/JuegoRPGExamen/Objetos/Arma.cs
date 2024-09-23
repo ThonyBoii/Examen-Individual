@@ -10,5 +10,12 @@ namespace JuegoRPGExamen.Objetos
     {
         string Nombre { get; }
         int Dano { get; }
+
+        public Arma(string nombre, int daño)
+        {
+            Nombre = nombre;
+            Dano = daño;
+        }
+
     }
 }

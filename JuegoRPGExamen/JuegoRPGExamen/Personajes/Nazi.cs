@@ -16,5 +16,14 @@ namespace JuegoRPGExamen.Personajes
             VelocidadE = velocidad;
             DefensaE = defensa;
         }
+
+        public void MostrarInfo()
+        {
+            Console.WriteLine($"Enemigo: {NombreE}");
+            Console.WriteLine($"Vida: {VidaE}");
+            Console.WriteLine($"Defensa: {DefensaE}");
+            Console.WriteLine($"Velocidad: {VelocidadE}");
+        }
+
     }
 }
