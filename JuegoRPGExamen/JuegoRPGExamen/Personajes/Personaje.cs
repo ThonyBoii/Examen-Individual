@@ -13,4 +13,6 @@ namespace JuegoRPGExamen.Personajes
         public int Defensa { get; set; }
         public int Velocidad { get; set; }
     }
+
+
 }

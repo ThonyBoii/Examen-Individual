@@ -17,7 +17,7 @@ namespace JuegoRPGExamen.Personajes
             DefensaE = defensa;
         }
 
-        public void MostrarInfo()
+        public void MostrarInfoE()
         {
             Console.WriteLine($"Enemigo: {NombreE}");
             Console.WriteLine($"Vida: {VidaE}");

@@ -27,5 +27,15 @@ namespace JuegoRPGExamen.Personajes
             Items.Remove(item);
         }
 
+        public void MostrarInfo()
+        {
+            Console.WriteLine($"Nombre: {Nombre}");
+            Console.WriteLine($"Vida: {Vida}");
+            Console.WriteLine($"Defensa: {Defensa}");
+            Console.WriteLine($"Velocidad: {Velocidad}");
+            Console.WriteLine($"Arma: {Arma.Nombre}");
+            Console.WriteLine($"Item: {(Item != null ? Item.Nombre : "Ninguno")}");
+        }
+
     }
 }
